@@ -5,3 +5,4 @@ print(f"Genererad nyckel: {key}")
 
 with open("secret.key" , "wb") as file:
     file.write(key)
+##gittest
