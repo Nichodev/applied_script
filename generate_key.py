@@ -4,5 +4,4 @@ key = Fernet.generate_key()
 print(f"Genererad nyckel: {key}")
 
 with open("secret.key" , "wb") as file:
-    file.write(key)
-##gittest
+    file.write(key)##gittest
