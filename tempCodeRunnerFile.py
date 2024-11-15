@@ -1,7 +1,10 @@
-valid_options = ["ja", "nej", "kanske"]
-user_input = input("Vill du sova? ")
+p = Path('/Users/robertjakobsson/Documents/applied_script/example_file.txt')
 
-if user_input in valid_options:
-    print(f"Du valde {user_input}")
-else:
-    print("Jag förstår inte")
+print(p.exists()) ## Se om path finns
+print(p)
+
+p = Path.cwd() / 'documents' / 'file.txt'
+dest = Path.cwd() / 'backup' / 'file.txt'
+
+print(p)
+print(dest)
